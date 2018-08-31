@@ -19,12 +19,12 @@
 
 하이퍼레저 패브릭은 다른 public 블록체인 플렛폼과 차별화하여 엔터프라이즈 환경에서 사용하도록 설계되어 있습니다.
 
-. 차별화 포인트 중 하나로는 리눅스 재단에서 오픈소스 프로젝트로 진행되고 있습니다.
-. 다양한 산업에 적용 할 수 있게 모듈화/pluggable 한 아키텍처를 갖추고 있습니다.
-. 제한된 개발 language가 아닌 Java, go, node.js 같은 범용 language로 smart contract(fabric에서는 chaincode라 칭함)를 작성 할 수 있습니다.
-. 참여자가 신뢰할 수 없는 익명이 아니다 보니 권한이 부여 됩니다.
-. 합의 방식을 효과적으로 pluggable(내맘대로 합의 방식 결정) 할 수 있습니다. 예를들어 신뢰할 수 있는 단일 엔터프라이즈 환경에서 fully byzantine fault tolerant 합의 방식은 비효율적일 수 있습니다. 그런 환경에서는 crash fault tolerant가 더 나을 수도 있습니다.
-. fabric에서는 mining을 유도하거나 smart contract를 실행을 하기 위한 암호화폐를 필요로 하지 않는 합의 방식을  사용 할 수 있습니다.
+- 차별화 포인트 중 하나로는 리눅스 재단에서 오픈소스 프로젝트로 진행되고 있습니다.
+- 다양한 산업에 적용 할 수 있게 모듈화/pluggable 한 아키텍처를 갖추고 있습니다.
+- 제한된 개발 language가 아닌 Java, go, node.js 같은 범용 language로 smart contract(fabric에서는 chaincode라 칭함)를 작성 할 수 있습니다.
+- 참여자가 신뢰할 수 없는 익명이 아니다 보니 권한이 부여 됩니다.
+- 합의 방식을 효과적으로 pluggable(내맘대로 합의 방식 결정) 할 수 있습니다. 예를들어 신뢰할 수 있는 단일 엔터프라이즈 환경에서 fully byzantine fault tolerant 합의 방식은 비효율적일 수 있습니다. 그런 환경에서는 crash fault tolerant가 더 나을 수도 있습니다.
+- fabric에서는 mining을 유도하거나 smart contract를 실행을 하기 위한 암호화폐를 필요로 하지 않는 합의 방식을  사용 할 수 있습니다.
 
 # Modularity
 
