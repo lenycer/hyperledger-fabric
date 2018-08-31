@@ -29,3 +29,13 @@
 # Modularity
 
 하이퍼레저 패브릭은 모듈러 아키텍처로 설계되었습니다. 플러그 가능한 합의, LDAP 혹은 OIDC 같은 신원 관리, 키 관리 및 암화화 라이브러리 등 엔터프라이즈 환경의 요구 사항을 충족하도록 설계 되었습니다.
+
+- ordering service 는 transaction 순서를 합의하고 블록을 피어에게 브로드캐스트(전달) 한다
+- MSP(membership service provider)는 네트워크 내 모든 entity에 대해 암호화 신원확인을 관리합니다.
+- 피어가 ordering service로 부터 전달받은 블록 결과물을, 가십 서비스를 통해 다른 피어에게 전달하도록 합니다.
+- chaincode는 독립성을 위해 컨테이너(도커) 환경에서 구동됩니다. 표준 language로 작성되고 직접적으로 ledger에 접근하지 않습니다.
+- ledger는 다양한 DBMS를 지원합니다.
+- application에 따라 pluggable한 endosement(chaincode 수행)과 유효성 검증 정책을 적용 할 수 있습니다. (endose와 valid를 하나의 chaincode가 아니라 다르게 적용 할 수 있다는 의미?) 
+다양한 산업의 요구사항을 위해 다양한 방법으로 설정 가능합니다.
+
+# Permissioned vs Permissionless Blockchains
