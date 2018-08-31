@@ -1,1 +1,1 @@
-Hyperledger Fabric
+# What's new in v1.2
